@@ -1,3 +1,136 @@
-.App {
-  text-align: center;
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+p, label, .large {
+  font-size: 30px;
+  font-size: 1.5vw;
+}
+
+h1 {
+  font-size: 30px;
+  font-size: 3.5vw;
+}
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  min-height: 100vh; 
+  width: 100%;
+  background: linear-gradient(to bottom right, #e0f7fa, #fce4ec); 
+  text-align: center; 
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+.title-container {
+  margin-bottom: 20px;
+}
+
+.main-title {
+  font-family: 'Arial', sans-serif;
+  font-size: 6rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.tagline {
+  font-family: 'Arial', sans-serif;
+  font-size: 2.0rem;
+  color: #7f8c8d;
+  margin-top: 10px;
+}
+
+.food-concern input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.food-concern button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.meal-selector {
+  margin: 40px 0;
+}
+
+.meal-selector button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.submit-section {
+  margin: 40px 0;
+}
+
+.submit-section button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #3bde95;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Header styling /
+
+
+/ Meal selector styling /
+.meal-selector {
+  margin: 40px 0;
+}
+
+.meal-selector button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.api-results {
+  margin-top: 20px;
+  text-align: left;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/ Footer styling */
+footer {
+  margin-top: 50px;
+  color: #95a5a6;
+  font-size: 0.8rem;
 }
